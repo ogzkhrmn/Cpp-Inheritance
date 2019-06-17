@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Employee">
       <UniqueIdentifier>{7e52ca70-4101-4e1b-906a-9d1dc4f21e88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\multi">
+      <UniqueIdentifier>{f9791faa-8f7e-451a-812b-8974dad8be39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\multi">
+      <UniqueIdentifier>{e678fe68-a577-4294-a52b-68bc3435c5f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h">
@@ -38,6 +44,15 @@
     </ClInclude>
     <ClInclude Include="HourlyWorker.h">
       <Filter>Header Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass1.h">
+      <Filter>Header Files\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass2.h">
+      <Filter>Header Files\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="Derived.h">
+      <Filter>Header Files\multi</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="HourlyWorker.cpp">
       <Filter>Source Files\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Derived.cpp">
+      <Filter>Source Files\multi</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

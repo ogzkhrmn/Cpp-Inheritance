@@ -123,13 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BaseClass1.h" />
+    <ClInclude Include="BaseClass2.h" />
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="Derived.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="HourlyWorker.h" />
     <ClInclude Include="Point.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Derived.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="HourlyWorker.cpp" />
     <ClCompile Include="main.cpp" />
