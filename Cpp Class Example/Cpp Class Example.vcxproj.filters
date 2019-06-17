@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Point">
+      <UniqueIdentifier>{07f1d553-dc8b-4b39-9a16-dd5bbb512135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Point">
+      <UniqueIdentifier>{dd734d32-7a10-406c-8afb-f14a74ffed5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Employee">
+      <UniqueIdentifier>{19bf2fda-63ef-4887-96be-a0d7789c7c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Employee">
+      <UniqueIdentifier>{7e52ca70-4101-4e1b-906a-9d1dc4f21e88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="HourlyWorker.h">
+      <Filter>Header Files\Employee</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="HourlyWorker.cpp">
+      <Filter>Source Files\Employee</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
