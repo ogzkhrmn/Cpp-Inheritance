@@ -44,6 +44,8 @@ int main()
 	basePtr1 = &d;
 	basePtr2 = &d;
 
+	cout << d;
+
 	cout << "\nData members of bp1"
 		<< "\n Integer: " << basePtr1->getData();
 

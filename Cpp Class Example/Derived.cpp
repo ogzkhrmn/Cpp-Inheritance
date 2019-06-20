@@ -10,7 +10,7 @@ double Derived::getReal() const
 	return real;
 }
 
-std::ostream& operator<<(ostream& output, const Derived& d)
+ostream& operator<<(ostream& output, const Derived& d)
 {
 	output << "Integer: " << d.value
 		<< "\n Character: " << d.letter
